@@ -9,8 +9,14 @@
             "name": "Zbigniew Ślązak"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/imageinabox/wrike-php-library"
+        }
+    ],
     "require": {
-        "php": ">=5.5,<7.2",
+        "php": ">=7.3",
         "zibios/wrike-php-library": "^1.0",
         "zibios/wrike-php-guzzle": "^1.0",
         "zibios/wrike-php-jmsserializer": "^1.0"
