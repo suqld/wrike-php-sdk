@@ -1,5 +1,5 @@
 {
-    "name": "zibios/wrike-php-sdk",
+    "name": "suqld/wrike-php-sdk",
     "description": "Wrike PHP SDK, configured Wrike PHP Library package for most user cases.",
     "keywords": ["wrike", "wrike.com", "api", "sdk", "library", "guzzle", "client", "REST", "HTTP", "php"],
     "type": "library",
@@ -9,11 +9,25 @@
             "name": "Zbigniew Ślązak"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/suqld/wrike-php-guzzle"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/suqld/wrike-php-jmsserializer"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/suqld/wrike-php-library"
+        }
+    ],
     "require": {
-        "php": ">=5.5,<7.2",
-        "zibios/wrike-php-library": "^1.0",
-        "zibios/wrike-php-guzzle": "^1.0",
-        "zibios/wrike-php-jmsserializer": "^1.0"
+        "php": ">=7.3",
+        "suqld/wrike-php-library": "dev-main",
+        "suqld/wrike-php-guzzle": "dev-main",
+        "suqld/wrike-php-jmsserializer": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0,<6.0"
