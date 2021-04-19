@@ -25,9 +25,9 @@
     ],
     "require": {
         "php": ">=7.3",
-        "suqld/wrike-php-library": "dev-main",
-        "suqld/wrike-php-guzzle": "dev-main",
-        "suqld/wrike-php-jmsserializer": "dev-main"
+        "suqld/wrike-php-library": "dev-master",
+        "suqld/wrike-php-guzzle": "dev-master",
+        "suqld/wrike-php-jmsserializer": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0,<6.0"
